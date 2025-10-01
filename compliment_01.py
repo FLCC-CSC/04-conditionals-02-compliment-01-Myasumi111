@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Makiko Michelle Yasumi
+# DATE: October 1, 2025
+# BRIEF DESCRIPTION:  This program asks if a user wants a complement and prompts a complement if a user imputs "yes".
 
 
 
@@ -15,12 +15,19 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    complement()
 
+def complement():
 
+    choice = input("Would you like a compliment? ") # Asking for a user input.
 
+    if choice == "yes": # Input must be "yes". If statement doesn't run otherwise.
+        print("You have wonderful eyes.")
+    
+    print("Thank you for playing.")
 
-
-
+main()
 
 
 
@@ -67,15 +74,11 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
-
+2
 
 2. What was the hardest part of this lab?
 
-
-
-
-
+Spelling correctly.
 
 
 '''
